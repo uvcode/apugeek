@@ -1,0 +1,63 @@
+@media screen and (min-width: 800px) {
+	header li
+	{
+		margin: 0;
+		padding: 20px 0;
+		float: right;
+	}
+	#contenido .item
+	{
+		display: inline-block;
+		margin: 20px 30px;
+	}
+	nav
+	{
+		float: left;
+		padding: 386px 0;
+	}
+	nav ul
+	{
+		margin-top: -348px;
+	}
+	nav ul li
+	{
+		display: block;
+	}
+	nav ul li a
+	{
+		padding: 30px 0;
+	}
+
+	#navigationMenu span
+	{
+		/* Container properties */
+		width:0;
+		left:48px;
+		padding:0;
+		position:absolute;
+		overflow:hidden;
+
+		/* Text properties */
+		font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+		font-size:18px;
+		font-weight:bold;
+		letter-spacing:0.6px;
+		white-space:nowrap;
+		line-height:50px;
+	
+		/* CSS3 Transition: */
+		-webkit-transition: 0.25s;
+	
+		/* Future proofing (these do not work yet): */
+		-moz-transition: 0.25s;
+		transition: 0.25s;
+	}
+	#navigationMenu a:hover span
+	{ 
+		width:auto; 
+		padding:20px 20px;
+		overflow:visible;
+		background: #4b4b4b;
+		margin-top: -30px; 
+	}	
+}
